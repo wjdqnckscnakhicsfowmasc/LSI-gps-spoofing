@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+data_raw/
+dataset/
+dataset_*/
+db/
+incremental_db/
+output_files/
+simulation/
