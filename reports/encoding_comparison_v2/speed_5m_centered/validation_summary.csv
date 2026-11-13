@@ -1,0 +1,2 @@
+encoding,best_epoch,validation_loss,accuracy,balanced_accuracy,macro_f1,true_normal,false_spoofed,false_normal,true_spoofed
+speed_5m_centered,50,0.4982895255088806,0.74,0.7250000000000001,0.7267759562841529,26,14,12,48

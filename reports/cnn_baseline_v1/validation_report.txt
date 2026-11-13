@@ -1,0 +1,10 @@
+Best epoch: 7
+
+              precision    recall  f1-score   support
+
+      normal      0.000     0.000     0.000         4
+     spoofed      0.600     1.000     0.750         6
+
+    accuracy                          0.600        10
+   macro avg      0.300     0.500     0.375        10
+weighted avg      0.360     0.600     0.450        10

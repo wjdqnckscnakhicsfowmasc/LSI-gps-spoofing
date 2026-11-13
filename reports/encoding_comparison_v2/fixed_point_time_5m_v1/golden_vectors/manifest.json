@@ -1,0 +1,27 @@
+{
+  "architecture": "SmallCNN_1_4_8_v1",
+  "encoding": "last_visit_time_5m_bbox_center_v1",
+  "checkpoint_epoch": 26,
+  "class_order": [
+    "normal",
+    "spoofed"
+  ],
+  "tie_break_class": 0,
+  "serialization": "C order, one hexadecimal value per line",
+  "signed_values": "two's complement",
+  "layout": {
+    "input": "row, column",
+    "activations": "channel, row, column",
+    "conv_weights": "out_channel, in_channel, kernel_row, kernel_column",
+    "linear_weights": "out_feature, in_feature",
+    "flatten": "channel, row, column"
+  },
+  "rescale_bits": 31,
+  "rescale_rule": "After ReLU and max pooling: clip((x * M + 1073741824) >> 31, 0, 255)",
+  "input_scale": 0.00392156862745098,
+  "pool1_multiplier": 4847322,
+  "pool2_multiplier": 5020357,
+  "pool1_scale": 0.009017842423682119,
+  "pool2_scale": 0.01500379711973901,
+  "logit_scale": 4.190702732426143e-05
+}

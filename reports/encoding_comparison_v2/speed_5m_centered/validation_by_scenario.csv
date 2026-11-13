@@ -1,0 +1,6 @@
+scenario,samples,correct,errors
+gradual_offset,20,16,4
+moving,20,10,10
+position_freeze,20,16,4
+position_jump,20,16,4
+stop_and_resume,20,16,4

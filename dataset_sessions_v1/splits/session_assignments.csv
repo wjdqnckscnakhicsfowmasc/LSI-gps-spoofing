@@ -1,0 +1,11 @@
+session_id,split
+sim_session_001,validation
+sim_session_002,test
+sim_session_003,train
+sim_session_004,train
+sim_session_005,train
+sim_session_006,train
+sim_session_007,validation
+sim_session_008,test
+sim_session_009,train
+sim_session_010,train

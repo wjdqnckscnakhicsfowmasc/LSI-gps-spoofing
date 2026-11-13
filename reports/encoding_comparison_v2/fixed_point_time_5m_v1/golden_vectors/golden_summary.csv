@@ -1,0 +1,6 @@
+sample_id,scenario,true_label,expected_class,logit_normal,logit_spoofed
+v2_sim_session_009_normal,moving,0,1,-1191,4906
+v2_sim_session_004_stop,stop_and_resume,0,0,14725,-9577
+v2_sim_session_004_jump,position_jump,1,1,-46910,62572
+v2_sim_session_004_drift,gradual_offset,1,0,4845,2001
+v2_sim_session_004_frozen,position_freeze,1,1,-570,8142
