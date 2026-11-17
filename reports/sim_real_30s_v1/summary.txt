@@ -1,0 +1,35 @@
+PyTorch: 2.15.0+cpu
+Best epoch: 99 (val loss 0.5024)
+
+== Test simulasi: 77.0% (77/100) ==
+       scenario  samples  correct  accuracy
+ gradual_offset       20       16      0.80
+         moving       20       12      0.60
+position_freeze       20       13      0.65
+  position_jump       20       20      1.00
+stop_and_resume       20       16      0.80
+
+Confusion matrix (baris=asli normal/spoofed, kolom=prediksi):
+[[28 12]
+ [11 49]]
+
+              precision    recall  f1-score   support
+
+      normal      0.718     0.700     0.709        40
+     spoofed      0.803     0.817     0.810        60
+
+    accuracy                          0.770       100
+   macro avg      0.761     0.758     0.759       100
+weighted avg      0.769     0.770     0.769       100
+
+== GPS asli: 62/95 dikenali normal (65.3%), 33 salah dituduh spoofed ==
+  scenario  samples  correct  accuracy
+    moving       55       38  0.690909
+stationary       40       24  0.600000
+
+                 session_id  samples  correct
+      real_session_001_diam       10        6
+      real_session_002_diam       30       18
+real_session_003_jalan_mix1       19       13
+real_session_004_jalan_mix2       20       13
+real_session_005_jalan_mix3       16       12

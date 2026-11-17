@@ -1,3 +1,6 @@
 .venv/
 __pycache__/
 *.pyc
+data_raw/gps_normal/*.nmea
+data_raw/gps_normal/session_*.csv
+dataset_real_time_5m_centered_30s_v1/raw/

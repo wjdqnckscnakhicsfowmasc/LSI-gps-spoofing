@@ -1,0 +1,6 @@
+session_id,samples,correct
+real_session_001_diam,10,6
+real_session_002_diam,30,18
+real_session_003_jalan_mix1,19,13
+real_session_004_jalan_mix2,20,13
+real_session_005_jalan_mix3,16,12
